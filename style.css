@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Section Styles */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 80px;
+}
+
+#home {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#about, #experience, #projects, #skills, #contact {
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
